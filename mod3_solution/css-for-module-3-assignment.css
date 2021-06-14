@@ -1,0 +1,86 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #a52a2a;
+	font-family: 'Oxygen', Sans-serif;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #deb887;
+	border-radius: 0;
+	border: 0;
+}
+div.container {
+	margin-left: 15px;
+}
+.navbar-brand {
+	padding-top: 15px;
+	text-align: center;
+}
+.navbar-brand h1 { 
+	font-family: 'Lora', serif;
+	color: #5f9ea0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #111;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+}
+#nav-list {
+	margin-top: 10px;
+	background-color: orange;
+}
+#nav-list a {
+	color: #5f9ea0; 
+	text-align: center;
+}
+#nav-list a:hover {
+	background: maroon;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #a52a2a;
+	background-color: maroon;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+	margin-bottom: 15px;
+}
+/* END HEADER */
+
+/* Home Page*/
+#main-content {
+	padding: 0;
+}
+#pollo, #carne, #sushi {
+	background-color: cyan;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+#our-menu-title {
+	color: #f6b319;
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+
+.category-tile {
+	margin-bottom: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+/* End Home Page*/
+
+
+/********** Extra small devices only **********/ 
+@media (max-width: 767px) {
+	/* Home Page */
+#menu-categories {
+	width: 90%;
+	margin: 0px auto 0px;
+
+}
